@@ -1,0 +1,31 @@
+
+.inputBusca{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 40px;
+    flex-wrap: wrap;
+    &__input{
+        display: flex;
+        padding: 10px 220px;
+        flex-wrap: wrap;
+        color: #fff;
+        font-size: 18px;
+        border-radius: 20px;
+        border: 2px solid #fff;
+        background: transparent;
+        ::placeholder{
+            color: #fff;
+        }
+
+    }
+    &__loopa{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        color: #fff;
+        margin: 4px 30px;
+        position: absolute;
+        margin-left: 35% ;
+    }
+}

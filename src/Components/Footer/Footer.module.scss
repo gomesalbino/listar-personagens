@@ -1,0 +1,35 @@
+.redeSocial {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px;
+    background: #04244f;
+
+    &__iconeFilme {
+        display: flex;
+        text-align: center;
+    }
+
+    &__icoFil {
+        display: flex;
+        text-align: center;
+        color: #FFFF00;
+    }
+
+
+
+}
+
+.iconeSocial{
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+    flex-wrap: wrap;
+    &__icones{
+        color: #fff;
+        margin-left: 5px;
+        flex-wrap: wrap;
+       
+    }
+}

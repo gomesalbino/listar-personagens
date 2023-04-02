@@ -1,0 +1,52 @@
+
+.cabecalho{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    margin: 60px;
+    font-size: 28px;
+    font-weight: 700;
+    
+    &__icone{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        color: #FFFF00;
+        margin: 0px 30px;
+    }
+    &__menuNavega{
+        display: flex;
+        justify-content: center;
+    }
+    &__navegacao{
+        display: flex;
+        a{
+            display: flex;
+            list-style: none;
+            text-decoration: none;
+            color: #fff;
+            margin-left: 22px;
+            flex-wrap: wrap;
+            justify-content: center;
+            text-align: center;
+        }
+    }
+    &__divisao{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        border: 1px solid #92929d;
+        width: 95%;
+        flex-wrap: wrap;
+        border-radius: 20px;
+    }
+}
+.botaoFavoritar{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background: transparent;
+    cursor: pointer;
+    margin-left: 20px;
+   color: #fff;
+}

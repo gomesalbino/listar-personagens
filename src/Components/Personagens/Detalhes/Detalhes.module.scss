@@ -1,0 +1,80 @@
+
+.personagens{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+    &__imagem{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        img{
+
+            border-radius: 20px;
+            box-shadow: 10px 15px 25px rgba(0, 0, 0, 0.5);
+        }
+        
+    }
+    &__tags{
+        margin: 15px;
+        justify-content: center;
+        text-align: center;
+        margin-bottom: 100px;
+    }
+    &__nome{
+        font-size: 30px;
+        font-weight: 700;
+        color: #fff;
+        letter-spacing: 1px;
+    }
+    &__gender{
+        font-size: 20px;
+        font-weight: 500;
+        color: #fff;
+        margin: 10px;
+    }
+
+}
+.detalhesBotao{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+    button{
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 10px 30px;
+    border-radius: 20px;
+    font-size: 17px;
+    font-weight: 400;
+    border: 2px solid #fff;
+    color: #fff;
+    font-family: 'Italiana', serif;
+    box-shadow: 8px 12px 15px rgba(0, 0, 0, 0.5);
+    background: #4c4d5e;
+    flex-wrap: wrap;
+   
+    }
+}
+
+.botaoVerMais{
+    text-align: center;
+    padding: 10px 50px;
+    margin: 10px;
+    margin-bottom: 120px;
+    color: #fff;
+    border-radius: 20px;
+    border: 2px solid #fff;
+    background: #9d9d9d;
+    font-size: 22px;
+    font-weight: 600;
+    flex-wrap: wrap;
+    cursor: pointer;
+
+}
+
+
+
+
