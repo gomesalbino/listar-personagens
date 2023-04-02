@@ -1,5 +1,4 @@
-import { useState } from "react";
-import Pesquisar from "../../Components/Buscas";
+
 import ListarPersonagens from "../../Components/Personagens/ListarPersonagens";
 
 
@@ -13,7 +12,7 @@ function Personagens() {
                     {/* <Pesquisar /> */}
                 </div>
                 <div>
-                    <ListarPersonagens />
+                    <ListarPersonagens  />
                 </div>
             </div>
         </>
@@ -21,3 +20,4 @@ function Personagens() {
 }
 
 export default Personagens;
+

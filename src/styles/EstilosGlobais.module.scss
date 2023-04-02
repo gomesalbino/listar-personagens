@@ -8,7 +8,8 @@ body {
     min-height: 100vh;
     background: linear-gradient(#041833, #154580);
     font-family: 'Italiana', serif;
-   
+   flex-wrap: wrap;
+   justify-content: space-around;
 }
 
 body::-webkit-scrollbar {

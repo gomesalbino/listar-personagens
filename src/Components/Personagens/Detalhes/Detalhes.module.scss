@@ -4,8 +4,8 @@
     justify-content: center;
     margin: 20px;
     flex-wrap: wrap;
-    flex-direction: column;
-
+    flex-direction: row;
+    justify-content: space-around;
     &__imagem{
         display: flex;
         justify-content: center;
@@ -14,6 +14,8 @@
 
             border-radius: 20px;
             box-shadow: 10px 15px 25px rgba(0, 0, 0, 0.5);
+            height: 280px;
+            width: 250px;
         }
         
     }
@@ -56,6 +58,7 @@
     background: #4c4d5e;
     flex-wrap: wrap;
    
+   
     }
 }
 
@@ -72,6 +75,8 @@
     font-weight: 600;
     flex-wrap: wrap;
     cursor: pointer;
+    justify-content: center;
+    margin-left: 40%;
 
 }
 

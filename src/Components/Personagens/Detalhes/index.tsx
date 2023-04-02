@@ -90,15 +90,13 @@ function MaisDetalhes() {
                             <div className={styles.personagens__gender}>
                                 Localidade: {detalhe.location.name}
                             </div>
-                            <div className={styles.personagens__gender}>
-                                Criado em:   {detalhe.created}
-                            </div>
+                            
                         </div>
                     </div>
                 ))}
 
-                {proximaPagina && <button onClick={verMais} className={styles.botaoVerMais}>Ver mais</button>}
             </div>
+                {proximaPagina && <button onClick={verMais} className={styles.botaoVerMais}>Ver mais</button>}
         </>
     );
 }

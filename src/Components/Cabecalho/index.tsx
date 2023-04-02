@@ -57,8 +57,8 @@ function Cabecalho({ children }: { children?: React.ReactNode }) {
                 <hr className={styles.cabecalho__divisao} />
             </div>
             <div>
-                <Outlet />
-                {children}
+                {/* <Outlet />
+                {children} */}
             </div>
         </>
     );
