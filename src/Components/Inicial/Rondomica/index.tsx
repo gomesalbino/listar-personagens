@@ -2,6 +2,7 @@
 import styles from "./Rondomico.module.scss";
 
 import temporadas from "../../../Data/temporadas.json";
+import TituloHome from "../../TituloHomes";
 
 function Inicial() {
 
@@ -11,6 +12,9 @@ function Inicial() {
 
     return (
         <>
+        <div>
+            <TituloHome />
+        </div>
             <div className={styles.tituloTemporada}>
                 <h3 className={styles.tituloTemporada__texto}>As Temporadas</h3>
             </div>

@@ -1,0 +1,36 @@
+
+
+.homeTitulo{
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+    flex-wrap: wrap;
+   
+    &__texto{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-size: 40px;
+        flex-wrap: wrap;
+        color: #fff;
+        font-weight: 900;
+        font-family: 'Roboto', sans-serif;
+        width: 50%;
+        letter-spacing: 5px;
+    }
+}
+.homeIcones{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 30px;
+    justify-content: space-around;
+    
+    flex-wrap: wrap;
+    &__icone{
+        display: flex;
+        text-align: center;
+        color: aqua;
+    }
+}
+
